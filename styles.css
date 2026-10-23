@@ -96,8 +96,8 @@ h2 { font-size: clamp(32px, 4vw, 52px); font-weight: 700; letter-spacing: -0.035
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
 /* Services */
-.split { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px 64px; align-items: end; }
-.services { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); border-top: 1px solid var(--ink); }
+.split { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px 64px; align-items: end; }
+.services { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); border-top: 1px solid var(--ink); }
 .service { padding: 28px 28px 36px 0; border-bottom: 1px solid var(--line-2); display: flex; flex-direction: column; gap: 14px; min-height: 240px; }
 .num { font-size: 13px; color: var(--text-3); font-variant-numeric: tabular-nums; }
 .service-title { font-size: 24px; font-weight: 600; letter-spacing: -0.02em; }
@@ -106,7 +106,7 @@ h2 { font-size: clamp(32px, 4vw, 52px); font-weight: 700; letter-spacing: -0.035
 .process { background: var(--green); color: var(--paper); }
 .process .section { gap: 56px; }
 .process .eyebrow, .process .body { color: var(--green-muted); }
-.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px 32px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 40px 32px; }
 .step { display: flex; flex-direction: column; gap: 16px; }
 .step-mark { display: flex; align-items: center; gap: 12px; }
 .step-mark span {
